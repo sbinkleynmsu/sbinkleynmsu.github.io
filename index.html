@@ -7,25 +7,47 @@
     <title>Shea Binkley - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="home">
     <header>
-        <h1>Shea Binkley</h1>
-        <section class="landing">
-            <img src="IMG_0025.JPG" alt="Your Picture">
-            <p>A short bio about yourself.</p>
-            <li><a href="Shea Binkley Resume.pdf">Resume</a></li>
-        </section>
-    </header>
-    <main>
+        <!-- Name -->
+        <h1 style="font-size:10vw">Shea Binkley</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="proj_hobs.html">Projects and Hobbies</a></li>
-                <li><a href="contact.html">Contact Info</a></li>
+                <!-- Tab links -->
+                <div class="tab">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="proj_hobs.html">Projects and Hobbies</a></li>
+                    <li><a href="contact.html">Contact Info</a></li>
+                </div>
             </ul>
         </nav>
+    </header>
+    <main>
+        <!-- Bio and Image -->
+        <section class="landing">
+            
+            <img src="files_images/IMG_1768.jpg" alt="My Picture">
+            <div class="bio-header">
+                <p>About Me...</p>
+            </div>
+            <div class="bio">
+                <p>Welcome to my personal website. I am currently a Computer Science major at New Mexico State University. My current interests include data analytics and program management. 
+                    I was also awarded the DoD SMART Scholarship, a scholarship for service program, and am scheduled to work at White Sands Missle Range shortly after my prospective 
+                    graduation in December of 2024. I will be working for TRAC (The Research Analysis Center) working to analyze the Army's future technologies. 
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
+        <!-- Dark/Light mode button -->
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        
+
+        <!-- Copyright -->
         <p>&copy; 2024 Shea Binkley</p>
     </footer>
     <script src="script.js"></script>
