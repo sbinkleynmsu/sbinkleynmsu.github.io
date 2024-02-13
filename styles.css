@@ -12,9 +12,6 @@ body.dark{
     background-color: black;
 }
 
-.resume.resume.dark{
-    background-color: black;
-}
 .switch {
     position: relative;
     display: inline-block;
@@ -73,7 +70,7 @@ input:checked + .slider:before {
 /* home */
 header {
     color: black;
-    padding: 20px;
+    padding: 10px;
     background-color: #F89880;
 }
 
@@ -85,7 +82,7 @@ header .landing{
 header h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+    margin: 2px;
 }
 
 /* tabs on home */
@@ -98,8 +95,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    padding: 0;
-    margin: 0;
+    
 }
 nav ul li a {
     color:black;
@@ -108,7 +104,7 @@ nav ul li a {
     overflow: hidden;
     background-color: aliceblue;
     border: 2px solid #6F8FAF;
-    padding: 2px;
+    padding: 4px;
     border-radius: 10px;
 }
 nav ul li a:hover{
@@ -116,10 +112,12 @@ nav ul li a:hover{
 }
 /* end tabs home */
 
+
 main {
     background-color: aliceblue;
-    padding: 20px;
-    min-height: 350px;
+    min-height: 400px;
+    padding: 10px;
+    
 }
 
 footer {
@@ -153,8 +151,19 @@ footer {
     font-size: larger;
 }
 
-.projhobs {
-    font-size: 100%;
+/* project and hobbies page */
+.projhobs{
+    
+    text-align: center;
+    
+}
+
+ul li{
+    font-size: 120%;
+}
+ul li a{
+    color:#2196F3;
+    font-size: 120%;
 }
 
 
@@ -183,7 +192,7 @@ footer {
 
     nav ul li {
         display: block;
-        margin: 10px 0;
+        margin: 10px;
     }
 
     
