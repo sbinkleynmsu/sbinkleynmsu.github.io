@@ -145,7 +145,7 @@ footer {
 }
 /* home end */
 
-
+/* contact.html page */
 .contact {
     text-align: center;
     font-size: larger;
@@ -160,6 +160,7 @@ ul li a{
     font-size: 120%;
 }
 
+/* resume.html page */
 .resume {
     text-align: center;
     font-size: 150%;
