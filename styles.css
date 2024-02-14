@@ -94,7 +94,7 @@ nav ul {
 }
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 0px;
     
 }
 nav ul li a {
@@ -104,7 +104,7 @@ nav ul li a {
     overflow: hidden;
     background-color: aliceblue;
     border: 2px solid #6F8FAF;
-    padding: 4px;
+    padding: 2px;
     border-radius: 10px;
 }
 nav ul li a:hover{
@@ -152,12 +152,6 @@ footer {
 }
 
 /* project and hobbies page */
-.projhobs{
-    
-    text-align: center;
-    
-}
-
 ul li{
     font-size: 120%;
 }
@@ -165,9 +159,6 @@ ul li a{
     color:#2196F3;
     font-size: 120%;
 }
-
-
-
 
 .resume {
     text-align: center;
