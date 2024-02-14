@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects and Hobbies- Shea Binkley</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="projhobs">
     <header>
@@ -24,32 +24,38 @@
     </header>
     <main>
         <h1 style="background-color: #6F8FAF; color: black; font-size: 400%; text-align: center;">PROJECTS AND HOBBIES</u></h1>
+        
         <div class="Projects">
-            <h1 style="text-align: left;"> Project links: </h1>
+            <h1 style="text-align: center;"> Project Links: </h1>
                 <ul style="text-align: left;">
-                    <li><a href="files_images/cs371.zip">Roomate Budgeting Software</a></li>
+                    <li><a href="roomies.html">Roomate Budgeting Software</a></li>
+                    <li><a href="compiler.html">Compiler for CS371</a></li>
+                    <li><a href="portfolio.html">Sculpture Portfolio</a></li>
                 </ul>
         </div>
-        <div class="Hobbies" >
-            <h1 style="text-align: left;">Hobbies:</h1>
-                <ul style="text-align: left;">
-                    <li>Yoga</li>
-                    <li>Golf</li>
-                    <li>Weight Lifting</li>
-                    <li>Reading</li>
-                    <li>Horticulture</li>
-                    <li>Painting & Sculpting</li>
 
-                    <div class="images" style="padding: 20px; text-align: center;">
-                        <img src="files_images/flowers.jpg" width="200" height="200">
-                        <img src="files_images/cardboard.jpg" width="200" height="200">
-                        <img src="files_images/painting.jpg" width="200" height="200">
-                        <img src="files_images/welding.jpg" width="200" height="200">
-                    </div>
+        <div class="Hobbies" >
+            <h1 style="text-align: center;">Hobby Links:</h1>
+                <ul style="text-align: left;">
+                    <li><a href="outdoor.html">Outdoor Activities</a></li>
+                    <li><a href="cook.html">Cooking</a></li>
+                    <li><a href="travel.html">Traveling</a></li>
+                    <li><a href="art.html">Painting and Sculpting</a></li>
+
                 </ul>
         </div>
     </main>
     <footer>
+        <!--back button--> 
+        <form style="text-align: left;">
+            <input type="button" value="Back" onclick="goBack()">
+        </form>
+        <script>
+            function goBack(){
+                window.history.back();
+            }
+        </script>
+        
         <!-- Dark/Light mode button -->
         <label class="switch">
             <input type="checkbox">

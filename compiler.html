@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler Project - Shea Binkley</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body class="compiler"> 
+        <header>
+            <h1 style="font-size: 250%;">CS370 Complier</h1>
+            <nav>
+                <ul>
+                    <!-- Tab links -->
+                    <div class="tab">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="proj_hobs.html">Projects and Hobbies</a></li>
+                        <li><a href="contact.html">Contact Info</a></li>
+                    </div>
+                </ul>
+            </nav>
+            
+        </header>
+        <main style="text-align: center;">
+            <p style="font-size: 150%;">During the course of my Undergraduate degree, in the class CS370: Compilers and Automata, I created a compiler. Below is a link to download the code and image of my output.</p>
+            <a href="files_images/lab9.zip">Click here to download zip</a>
+            <p></p>
+            <img src="files_images/lab9output.jpg" style="height: 300px;">
+            
+        </main>
+    
+        <footer>
+            <!--back button--> 
+            <form style="text-align: left;">
+                <input type="button" value="Back" onclick="goBack()">
+            </form>
+            <script>
+                function goBack(){
+                    window.history.back();
+                }
+            </script>
+            
+            <!-- Dark/Light mode button -->
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <!-- Copyright -->
+        <p>&copy; 2024 Shea Binkley</p>
+        </footer>
+    <script src="script.js"></script>
+    </body>
+</html>

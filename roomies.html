@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomies Project - Shea Binkley</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body class="roomies"> 
+        <header>
+            <h1 style="font-size: 200%;">Group Project: Roomate Budgeting Software</h1>
+            <nav>
+                <ul>
+                    <!-- Tab links -->
+                    <div class="tab">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="proj_hobs.html">Projects and Hobbies</a></li>
+                        <li><a href="contact.html">Contact Info</a></li>
+                    </div>
+                </ul>
+            </nav> 
+        </header>
+        <main style="text-align: center;">
+            <p style="font-size: 150%;">During the course of my Undergraduate degree, in the class CS371: Intro to Software Developement, with a group we created a finance tracker and money dividing app for roomates. Below is a link to download the code and image of ReadMe file.</p>
+            <a href="files_images/cs371.zip">Click here to download zip</a>
+            <p></p>
+            <img src="files_images/cs371image.jpg" style="height: 300px;">
+            <p>Group Members: Nika Calapini, Vistine Phiffer, and Dominik Trujilo</p>
+        </main>
+    
+        <footer>
+            <!--back button--> 
+            <form style="text-align: left;">
+                <input type="button" value="Back" onclick="goBack()">
+            </form>
+            <script>
+                function goBack(){
+                    window.history.back();
+                }
+            </script>
+            
+            <!-- Dark/Light mode button -->
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <!-- Copyright -->
+        <p>&copy; 2024 Shea Binkley</p>
+        </footer>
+    <script src="script.js"></script>
+    </body>
+</html>

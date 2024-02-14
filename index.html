@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shea Binkley - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 
@@ -34,14 +34,26 @@
                 <p>About Me...</p>
             </div>
             <div class="bio">
-                <p>Welcome to my personal website. I am currently a Computer Science major at New Mexico State University. My current interests include data analytics and program management. 
+                <p> Born and raised in Las Cruces, New Mexico, and current Computer Science major at New Mexico State University, I am a 21 year old aspiring woman in STEM. 
+                    My current interests include data analytics and program management. 
                     I was also awarded the DoD SMART Scholarship, a scholarship for service program, and am scheduled to work at White Sands Missle Range shortly after my prospective 
-                    graduation in December of 2024. I will be working for TRAC (The Research Analysis Center) working to analyze the Army's future technologies. 
+                    graduation in December of 2024. I will be working for TRAC (The Research Analysis Center) working to analyze the Army's future implementation of technology. 
                 </p>
             </div>
         </section>
     </main>
     <footer>
+        <!--back button--> 
+        <form style="text-align: left;">
+            <input type="button" value="Back" onclick="goBack()">
+        </form>
+        <script>
+            function goBack(){
+                window.history.back();
+            }
+        </script>
+
+
         <!-- Dark/Light mode button -->
         <label class="switch">
             <input type="checkbox">
